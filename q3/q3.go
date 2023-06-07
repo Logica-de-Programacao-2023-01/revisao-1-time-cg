@@ -27,4 +27,4 @@ func FindMinMaxAverage(numbers []int) (int, int, float64, error) {
 	return maximo, min, average, nil
 }
 
-}
+
