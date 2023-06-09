@@ -1,5 +1,7 @@
 package q2
-
+import ("errors" 
+	"strings"
+)
 func AverageLettersPerWord(text string) (float64, error) {
 	simbolos := []string{",", ".", "?", "!", ";", ":"}
 	list := strings.Fields(text)
