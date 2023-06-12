@@ -1,5 +1,6 @@
 package q2
-import ("errors" 
+import (
+	"errors" 
 	"strings"
 )
 func AverageLettersPerWord(text string) (float64, error) {
